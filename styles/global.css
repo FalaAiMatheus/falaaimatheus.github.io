@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    ---purple-light: #606FFD;
+    ---white: #FFFF;
+    ---dark: #060606;
+    ---black: #0000;
+    ---gray: #1E1E1E;
+    ---gray-dark: #121212;
+    ---linkedin-color: #0A66C2;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.dark-mode{
+    background-color: var(---dark);
+}
