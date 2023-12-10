@@ -75,3 +75,11 @@ projects.forEach((item) => {
     `;
     projectsContainer.appendChild(newDiv)
 });
+
+function stickyHeader(){
+    const header = document.querySelector('.header');
+
+    header.classList.toggle('fixed', window.scrollY > 0);
+}
+
+window.addEventListener('scroll', stickyHeader)

@@ -12,15 +12,24 @@
 *{
     font-family: 'Inter', sans-serif;
 }
-
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(---dark);
+}
+.header.fixed{
+    padding: 1rem !important;
+    transition: .2s;
+}
 .dark-mode{
     background-color: var(---dark);
 }
 .menu{
     list-style: none;
 }
-.container{
-    margin-top: 3rem;
+.content{
+    margin-top: 10rem;
 }
 .menu a{
     color: var(---purple-light);
