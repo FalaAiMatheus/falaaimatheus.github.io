@@ -7,7 +7,6 @@
     ---black: #0000;
     ---gray: #1E1E1E;
     ---gray-dark: #121212;
-    ---linkedin-color: #0A66C2;
 }
 
 *{
@@ -49,4 +48,18 @@ h2 > span{
 }
 .gap{
     gap: 150px;
+}
+.experience-container{
+    background-color: var(---gray-dark);
+    width: 1004px;
+    height: 414px;
+    border-radius: 26px;
+}
+.exp{
+    width: 737px;
+    height: 286px;
+}
+.line{
+    width: 694px;
+    border: solid 5px var(---gray);
 }
