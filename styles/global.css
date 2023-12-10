@@ -46,8 +46,8 @@ h2{
 h2 > span{
     color: var(---purple-light);
 }
-.gap{
-    gap: 150px;
+.gap-7{
+    gap: 80px;
 }
 .experience-container{
     background-color: var(---gray-dark);
@@ -62,4 +62,10 @@ h2 > span{
 .line{
     width: 694px;
     border: solid 5px var(---gray);
+}
+.card{
+    background-color: var(---gray);
+    color: var(---white);
+    width: 30rem;
+    margin-bottom: 2rem;
 }
