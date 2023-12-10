@@ -26,7 +26,7 @@ const courses = [
         emissionDate: 'Verificação emitida em jul de 2021'
     },
     {
-        title: 'Pacote Office Completo - Microsoft Word, Excel e PowerpointL',
+        title: 'Pacote Office Completo - Microsoft Word, Excel e Powerpoint',
         plataform: 'Microlins',
         emissionDate: 'Verificação emitida em jul de 2021'
     },
@@ -40,3 +40,38 @@ courses.forEach((item, i) =>{
     plataformCourse[i].innerHTML = item.plataform
     emissionDateCourse[i].innerHTML = item.emissionDate
 })
+
+const projects = [
+    {
+        name: 'Pokedex/pokedex',
+        description: 'Projeto de uma pokedex em React para o projeto final de uma cadeira da faculdade',
+        repositore: 'https://github.com/MatheusFrancaDEV/pokedex',
+        tecnologies: 'React, API'
+    },
+    {
+        name: 'Eco Learning',
+        description: 'Projeto feito em conjunto para a apresentação de um trabalho',
+        repositore: 'https://github.com/MatheusFrancaDEV/eco-learning',
+        tecnologies: 'HTML, CSS e JavaScript'
+    },
+]
+
+const projectsContainer = document.getElementById('container-project')
+
+projects.forEach((item) => {
+
+    let newDiv = document.createElement("div");
+    newDiv.innerHTML = `
+    <div class="card">
+        <div class="card-body">
+            <h3 class="project-title">${item.name}</h3>
+            <hr>
+            <p class="project-text">${item.description}</p>
+            <a href="#" class="repositore">${item.repositore}</a>
+            <hr>
+            <span class="technologies fw-bold">Tecnologias: ${item.tecnologies}</span>
+        </div>
+    </div>
+    `;
+    projectsContainer.appendChild(newDiv)
+});
