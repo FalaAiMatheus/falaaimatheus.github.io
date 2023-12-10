@@ -17,3 +17,11 @@
 .dark-mode{
     background-color: var(---dark);
 }
+.menu{
+    list-style: none;
+}
+.menu a{
+    color: var(---purple-light);
+    font-size: 26px;
+    text-decoration: none;
+}
