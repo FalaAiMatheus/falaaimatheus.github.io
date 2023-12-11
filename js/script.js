@@ -16,7 +16,7 @@ const projectsContainer = document.getElementById('container-project')
 projects.forEach((item) => {
 
     let newDiv = document.createElement("div");
-    newDiv.classList.add('col-4')
+    newDiv.classList.add('col')
     newDiv.innerHTML = `
     <div class="card">
         <div class="card-body">
