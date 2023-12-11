@@ -16,13 +16,14 @@ const projectsContainer = document.getElementById('container-project')
 projects.forEach((item) => {
 
     let newDiv = document.createElement("div");
+    newDiv.classList.add('col-4')
     newDiv.innerHTML = `
     <div class="card">
         <div class="card-body">
             <h3 class="project-title">${item.name}</h3>
             <hr>
             <p class="project-text">${item.description}</p>
-            <a href="${item.repositore}" class="repositore">Repositrio</a>
+            <a href="${item.repositore}" class="repositore">Repositorio</a>
             <hr>
             <span class="technologies fw-bold">Tecnologias: ${item.tecnologies}</span>
         </div>
