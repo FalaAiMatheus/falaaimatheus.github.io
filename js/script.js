@@ -1,4 +1,4 @@
-export const courses = [
+const courses = [
     {
         title: 'PHP 7 Completo - Curso do Desenvolvedor Web',
         plataform: 'Udemy',
@@ -32,7 +32,7 @@ export const courses = [
     },
 ]
 
-export const projects = [
+const projects = [
     {
         name: 'Pokedex/pokedex',
         description: 'Projeto de uma pokedex em React para o projeto final de uma cadeira da faculdade',
