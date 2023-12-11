@@ -48,13 +48,10 @@
     color: var(---white);
     font-size: 1.2rem;
 }
-.about-descri h2{
+.about-descri h1{
     font-size: 4rem;
 }
-h2{
-    color: var(---white);
-}
-h2 > span{
+h1 > span{
     color: var(---purple-light);
 }
 .gap-7{
@@ -64,7 +61,7 @@ h2 > span{
     background-color: var(---gray-dark);
     width: 100%;
     max-width: 60rem !important;
-    height: 400px;
+    height: 500px;
     border-radius: 26px;
     overflow: auto;
 }
@@ -85,7 +82,7 @@ h2 > span{
     max-width: 30rem;
     margin-bottom: 2rem;
 }
-.card-link{
+.repositore{
     border: 2px solid var(---gray-dark);
     padding: .7rem;
     color: var(---purple-light);
