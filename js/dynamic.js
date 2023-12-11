@@ -83,3 +83,23 @@ function stickyHeader(){
 }
 
 window.addEventListener('scroll', stickyHeader)
+
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(e){
+    e.preventDefault()
+    const nav = document.querySelector('nav')
+    const links = document.querySelectorAll('a')
+    if(e.type === "touchstart") 
+    nav.classList.toggle('active');
+
+    links.forEach((item,i) =>{
+        links[i].addEventListener('click', () =>{
+            nav.classList.remove('active')
+        })
+    })
+}
+
+btnMobile.addEventListener("click", toggleMenu);
+
+btnMobile.addEventListener("touchstart", toggleMenu);
