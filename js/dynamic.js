@@ -95,7 +95,7 @@ function toggleMenu(e){
 
     links.forEach((item,i) =>{
         links[i].addEventListener('click', () =>{
-            nav.classList.remove('active')
+            nav.classList.remove('')
         })
     })
 }
