@@ -1,5 +1,5 @@
-import { courses } from "./infos.js"
-import { projects } from "./infos.js"
+import { courses } from "../data/infos.js"
+import { projects } from "../data/infos.js"
 
 const titleCourse = document.querySelectorAll('.card-title')
 const plataformCourse = document.querySelectorAll('.card-subtitle') 
