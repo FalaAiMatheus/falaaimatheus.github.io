@@ -23,7 +23,7 @@ projects.forEach((item) => {
             <h3 class="project-title">${item.name}</h3>
             <hr>
             <p class="project-text">${item.description}</p>
-            <a href="${item.repositore}" class="repositore" target="_blank">Repositorio</a>
+            <a href="${item.repositore}" class="repositore text-info" target="_blank">Repositorio</a>
             <hr>
             <span class="technologies fw-bold">Tecnologias: ${item.tecnologies}</span>
         </div>

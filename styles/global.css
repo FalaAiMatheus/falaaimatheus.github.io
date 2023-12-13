@@ -85,7 +85,6 @@ h1 > span{
 .repositore{
     border: 2px solid var(---gray-dark);
     padding: .7rem;
-    color: var(---purple-light);
     border-radius: 8px;
 }
 .btn{
