@@ -16,7 +16,7 @@ const projectsContainer = document.getElementById('container-project')
 projects.forEach((item) => {
 
     let newDiv = document.createElement("div");
-    newDiv.classList.add('col')
+    newDiv.classList.add('swiper-slide')
     newDiv.innerHTML = `
     <div class="card">
         <div class="card-body">
@@ -59,3 +59,37 @@ function toggleMenu(e){
 btnMobile.addEventListener("click", toggleMenu);
 
 btnMobile.addEventListener("touchstart", toggleMenu);
+
+const swiper = new Swiper('.swiper', {
+    direction: 'horizontal',
+    loop: true,
+  
+    pagination: {
+      effect: 'coverflow',
+      grabCursor: true,
+      el: '.swiper-pagination',
+      dynamicBullets: true,
+      clickableClass: '.swiper-pagination-bullet'
+    },
+  
+    slidesPerView: 1,
+    spaceBetween: 10,
+    // Responsive breakpoints
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 30
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 40
+      }
+    }
+});
