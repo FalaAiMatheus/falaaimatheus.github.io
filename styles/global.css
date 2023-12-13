@@ -61,14 +61,12 @@ h1 > span{
     background-color: var(---gray-dark);
     width: 100%;
     max-width: 60rem !important;
-    height: 500px;
     border-radius: 26px;
     overflow: auto;
 }
 .exp{
     width: 100%;
     max-width: 737px;
-    height: 286px;
 }
 .line{
     width: 100%;
