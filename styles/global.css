@@ -79,6 +79,9 @@ h1 > span{
     width: 100%;
     margin-bottom: 2rem;
 }
+.card.courses{
+    height: 165px;
+}
 .repositore{
     border: 2px solid var(---gray-dark);
     padding: .7rem;
@@ -107,6 +110,9 @@ h1 > span{
 }
 .swiper-pagination-bullet{
     background-color: #FFFF;
+}
+.courses-container{
+    max-width: 1100px;
 }
 @media(max-width: 1100px){
     .about{
@@ -196,8 +202,5 @@ h1 > span{
         max-width: 350px;
         height: 300px;
         cursor: pointer;
-    }
-    .card{
-
     }
 }
