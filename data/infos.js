@@ -56,11 +56,5 @@ export const projects = [
         description: 'Projeto de um site que consulta o CEP digitado e retorna suas informações',
         repositore: 'https://github.com/MatheusFrancaDEV/consulta-cep',
         tecnologies: 'HTML, CSS, JavaScript, API'
-    },
-    {
-        name: 'To-do List',
-        description: 'Projeto de um site em React de uma To-do list simples',
-        repositore: 'https://github.com/MatheusFrancaDEV/to-do-list-react',
-        tecnologies: 'React, API'
     }
 ]
