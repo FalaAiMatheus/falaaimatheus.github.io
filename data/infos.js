@@ -56,5 +56,11 @@ export const projects = [
         description: 'Projeto de um site que consulta o CEP digitado e retorna suas informações',
         repositore: 'https://github.com/MatheusFrancaDEV/consulta-cep',
         tecnologies: 'HTML, CSS, JavaScript, API'
+    },
+    {
+        name: 'Newsletter Form',
+        description: 'Projeto de uma Newsletter usando React, TypeScript e TailwindCSS',
+        repositore: 'https://github.com/MatheusFrancaDEV/newsletter-form',
+        tecnologies: 'React, TypeScript, TailwindCSS'
     }
 ]
