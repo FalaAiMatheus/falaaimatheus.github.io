@@ -32,4 +32,18 @@ export const projects = [
     repositore: "https://github.com/MatheusFrancaDEV/newsletter-form",
     tecnologies: "React, TypeScript, TailwindCSS",
   },
+  {
+    name: "Quadro ADS",
+    description:
+      "O projeto é um site desenvolvido para melhorar a acessibilidade as informações do curso de ADS",
+    repositore: "https://github.com/MatheusFrancaDEV/quadro-ads",
+    tecnologies: "React, TailwindCSS",
+  },
+  {
+    name: "Services Orders API",
+    description:
+      "Projeto de uma API usando Next e Supabase",
+    repositore: "https://github.com/MatheusFrancaDEV/services-orders-api",
+    tecnologies: "JavaScript, Supabase",
+  },
 ];
